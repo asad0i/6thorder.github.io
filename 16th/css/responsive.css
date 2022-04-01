@@ -1,0 +1,139 @@
+@media  (min-width: 1440px){
+  .container {
+    width: 1276px;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){
+  nav .logo img {
+    width: 131px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px !important;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.nav-icon-2 {
+  font-size: 29px !important;
+  color: #009CDC;
+}
+
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+  
+.footer-item ul li {
+  margin: 1px 4px  !important;
+}
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 425px), only screen and (max-device-width: 425px){
+  .banner {
+    display: flex;
+    padding: 42px 42px;
+}
+
+.banner img {
+  width: 89px;
+}
+
+.banner h1 {
+  font-size: 33px;
+}
+  .footer-first-item {
+    margin: 15px 34px !important;
+  }
+  
+.footer-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+  flex-direction: column;
+}
+.second-first-item {
+  flex-basis: 25%;
+  padding: 10px 39px;
+}
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  }
+  
+  @media only screen and (max-width: 375px), only screen and (max-device-width: 375px){
+
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+  }
+  @media only screen and (max-width: 320px), only screen and (max-device-width: 320px){
+    .main-select {
+      display: flex;
+      flex-direction: column;
+      width: 290px;
+      margin: auto;
+      background: #F3F6FA;
+      padding: 30px 38px;
+      border-radius: 10px;
+      line-height: 40px;
+  }
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+.testimonial {
+  width: 250px !important;
+}
+.banner-main-info {
+  display: flex;
+  padding: 0px 0px;
+}
+  }
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+}
+
+.forth-first-item {
+  flex-basis: 20%;
+}
+.forth-first-item ul {
+  display: flex;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+}

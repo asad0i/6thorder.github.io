@@ -1,0 +1,197 @@
+@media  (min-width: 1440px){
+  .container {
+    width: 1276px;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){
+  nav .logo img {
+    width: 131px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px !important;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.nav-icon-2 {
+  font-size: 29px !important;
+  color: #009CDC;
+}
+
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+  .message-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px 35px;
+    background: #F3F6FA;
+    height: 80%;
+    margin: 0px 10px;
+}
+
+.info-img img {
+  width: 330px;
+}
+.footer-item ul li {
+  margin: 1px 4px  !important;
+}
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 425px), only screen and (max-device-width: 425px){
+  .contact {
+    display: flex;
+    padding: 53px 29px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px 35px;
+  background: #F3F6FA;
+  height: 80%;
+  margin: 30px 10px;
+}
+.inner-section h1 {
+  font-size: 33px;
+  font-family: 'Ultramagnetic';
+  margin: 37px 20px;
+}
+.inner-section img {
+  width: 78px;
+}
+  .footer-first-item {
+    margin: 15px 34px !important;
+  }
+  
+.footer-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+  flex-direction: column;
+}
+.second-first-item {
+  flex-basis: 25%;
+  padding: 10px 39px;
+}
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  }
+  
+  @media only screen and (max-width: 375px), only screen and (max-device-width: 375px){
+    .info-img img {
+      width: 268px;
+  }
+  .message-box {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    padding: 10px 35px;
+    background: #F3F6FA;
+    height: 80%;
+    margin: 25px 0px;
+}
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+.from-group {
+  display: flex;
+  padding: 49px 44px;
+  justify-content: center;
+  flex-direction: column;
+}
+.inner-text {
+  width: 313px;
+  margin-top: 25px;
+}
+  }
+  @media only screen and (max-width: 320px), only screen and (max-device-width: 320px){
+    section.main-section {
+      display: flex;
+      padding: 16px 31px;
+      flex-direction: column;
+  }
+  .from-group {
+    display: flex;
+    padding: 49px 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .inner-text {
+    width: 313px;
+    margin-top: 25px;
+}
+  .inner-section img {
+    width: 80px;
+}
+.inner-section h1 {
+  font-size: 27px;
+  font-family: 'Ultramagnetic';
+  margin: 29px 13px;
+}
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+.testimonial {
+  width: 250px !important;
+}
+.banner-main-info {
+  display: flex;
+  padding: 0px 0px;
+}
+  
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+}
+
+.forth-first-item {
+  flex-basis: 20%;
+}
+.forth-first-item ul {
+  display: flex;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+}
+  }

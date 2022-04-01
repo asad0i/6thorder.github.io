@@ -1,0 +1,244 @@
+@media only screen and (max-width: 912px), only screen and (max-device-width: 912px){
+  .service-list ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .footer-first-item {
+    margin: -22px 45px !important;
+    flex-basis: 25%;
+  }
+}
+@media only screen and (max-width: 820px), only screen and (max-device-width: 820px){
+  .service-list ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .footer-first-item {
+    margin: -22px 45px !important;
+    flex-basis: 25%;
+  }
+}
+
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px){
+  .bannaer-img img {
+    width: 57px;
+}
+.service-list ul li p {
+  font-size: 12px;
+  color: #1D46F6;
+  font-family: 'Ultramagnetic';
+}
+
+.bannner-heading h1 {
+    font-family: 'Ultramagnetic';
+    font-size: 35px;
+}
+section.bannner {
+  padding: 45px 35px;
+}
+.bannner-heading {
+  margin: 4px 21px;
+}
+.footer-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+  flex-direction: column;
+}
+.second-first-item {
+  flex-basis: 25%;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+.footer-item ul li {
+  margin: 1px 4px  !important;
+}
+.copyright-text p {
+  font-size: 12px !important;
+  margin: 10px;
+  text-align: center;
+}
+section.domain {
+  text-align: center;
+  padding: 20px;
+  background-image: url(../img/banner\ domain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+}
+.service-list ul li {
+  margin: 16px 44px;
+  text-align: center;
+  width: 23%;
+}
+.service-list ul li img {
+  width: 100%;
+}
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 42px;
+  margin-left: 53px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.forth-first-item ul {
+  display: flex;
+  justify-content: center;
+}
+.service-text h1 {
+  font-size: 29px;
+  color: #04b4ff;
+  font-family: 'Ultramagnetic';
+}
+  }
+@media only screen and (max-width: 412px), only screen and (max-device-width: 412px){
+  .service-list ul li {
+    margin: 12px 40px;
+    text-align: center;
+    width: 23%;
+}
+.bannner-heading h1 {
+  font-family: 'Ultramagnetic';
+  font-size: 36px;
+}
+.service-list ul li p {
+font-size: 12px;
+color: #1D46F6;
+font-family: 'Ultramagnetic';
+}
+form.form-control {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form.form-control select {
+  width: 368px;
+  margin-left: 1px;
+}
+form.form-control input {
+margin: 19px 0px;
+}
+form.form-control button {
+margin-top: 11px;
+}
+.domain-form button {
+width: 368px;
+padding: 13px;
+border: none;
+background: #78C8ED;
+color: #ffff;
+border-radius: 3px;
+}
+
+.service-text {
+display: flex;
+padding: 0px 60px;
+}
+.service-text h1 {
+font-size: 29px;
+color: #04b4ff;
+font-family: 'Ultramagnetic';
+}
+.domain-second-heading {
+  font-family: 'Roboto',Regular;
+  color: #ffff;
+  margin-bottom: -3px;
+  font-size: 15px;
+}
+.footer-logo a {
+color: #78C8ED;
+margin: 0px 16px;
+}
+.footer-logo {
+margin-bottom: 39px;
+}
+.copyright-text {
+display: flex;
+justify-content: space-around;
+}
+
+.copyright-text p {
+font-family: 'Ultramagnetic';
+}
+}
+@media only screen and (max-width: 280px), only screen and (max-device-width: 280px){
+  .service-list ul li {
+    margin: 12px 40px;
+    text-align: center;
+    width: 23%;
+}
+.bannner-heading h1 {
+  font-family: 'Ultramagnetic';
+  font-size: 17px;
+}
+.service-list ul li p {
+font-size: 12px;
+color: #1D46F6;
+font-family: 'Ultramagnetic';
+}
+form.form-control {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form.form-control select {
+  width: 244px;
+  margin-left: 1px;
+}
+form.form-control input {
+margin: 19px 0px;
+}
+form.form-control button {
+margin-top: 11px;
+}
+.domain-form button {
+width: 248px;
+padding: 13px;
+border: none;
+background: #78C8ED;
+color: #ffff;
+border-radius: 3px;
+}
+
+.service-text {
+display: flex;
+padding: 0px 60px;
+}
+.service-text h1 {
+font-size: 29px;
+color: #04b4ff;
+font-family: 'Ultramagnetic';
+}
+.domain-second-heading {
+  font-family: 'Roboto',Regular;
+  color: #ffff;
+  margin-bottom: -3px;
+  font-size: 15px;
+}
+.footer-logo a {
+color: #78C8ED;
+margin: 0px 16px;
+}
+.footer-logo {
+margin-bottom: 39px;
+}
+.copyright-text {
+display: flex;
+justify-content: space-around;
+}
+
+.copyright-text p {
+font-family: 'Ultramagnetic';
+}
+}

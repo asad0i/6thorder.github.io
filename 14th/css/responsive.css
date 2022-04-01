@@ -1,0 +1,299 @@
+@media  (min-width: 1440px){
+  .container {
+    width: 1276px;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){
+  nav .logo img {
+    width: 131px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px !important;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.nav-icon-2 {
+  font-size: 29px !important;
+  color: #009CDC;
+}
+.banner-info {
+  width: 71% !important;
+}
+
+
+
+section.banner {
+  padding: 100px 100px;
+}
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+.banner-main-info {
+  display: flex;
+}
+.testimonial-img img {
+  width: 35%;
+  margin-left: -22px;
+}
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+  .service-list ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .footer-first-item {
+    margin: -22px 45px !important;
+    flex-basis: 25%;
+  }
+  .service-list {
+    padding: 0px 20px;
+  }
+  .service-list ul li {
+    margin: 13px 15px;
+    text-align: center;
+    width: 14%;
+}
+.copyright-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+section.service-section {
+  padding: 50px 11px;
+}
+
+}
+
+
+@media only screen and (max-width: 425px), only screen and (max-device-width: 425px){
+  .bannaer-img img {
+    width: 71px;
+}
+.service-list ul li p {
+  font-size: 12px;
+  color: #1D46F6;
+  font-family: 'Ultramagnetic';
+}
+.code-inner {
+  background-image: linear-gradient(0deg, #f3f6fa, rgb(226 225 231 / 16%)), url(../img/image\ fond\ astuce@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 43px 10px;
+  background-position: right;
+  border-radius: 50px;
+}
+.service-list {
+  padding: 0px 30px;
+}
+.bannner-heading h1 {
+    font-family: 'Ultramagnetic';
+    font-size: 35px;
+}
+section.bannner {
+  padding: 45px 35px;
+}
+.bannner-heading {
+  margin: 4px 21px;
+}
+.footer-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+  flex-direction: column;
+}
+.second-first-item {
+  flex-basis: 25%;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+.footer-item ul li {
+  margin: 1px 4px  !important;
+}
+.copyright-text p {
+  font-size: 12px !important;
+  margin: 10px;
+  text-align: center;
+}
+.service-list ul li {
+  margin: 16px 44px;
+  text-align: center;
+  width: 23%;
+}
+.service-list ul li {
+  margin: 16px 48px;
+  text-align: center;
+  width: 23%;
+}
+.service-list ul li img {
+  width: 100%;
+}
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 42px;
+  margin-left: 53px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.forth-first-item ul {
+  display: flex;
+  justify-content: center;
+}
+.service-text h1 {
+  font-size: 29px;
+  color: #04b4ff;
+  font-family: 'Ultramagnetic';
+}
+section.code-section {
+  padding: 10px 24px;
+}
+  }
+  
+  @media only screen and (max-width: 375px), only screen and (max-device-width: 375px){
+    .domain-second-heading {
+      font-family: 'Roboto',Regular;
+      color: #ffff;
+      margin-bottom: 35px;
+      font-size: 19px;
+  }
+  .service-list {
+    padding: 0px 10px;
+  }
+  form.form-control {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  form.form-control select {
+    width: 333px;
+    margin-left: 1px;
+}
+form.form-control input {
+  margin: 19px 0px;
+}
+form.form-control button {
+  margin-top: 11px;
+}
+.domain-form button {
+  width: 332px;
+  padding: 13px;
+  border: none;
+  background: #78C8ED;
+  color: #ffff;
+  border-radius: 3px;
+}
+.service-text {
+  display: flex;
+  padding: 0px 60px;
+}
+.service-text h1 {
+  font-size: 29px;
+  color: #04b4ff;
+  font-family: 'Ultramagnetic';
+}
+h1.code-heading {
+  font-family: 'Ultramagnetic';
+  margin-bottom: 19px;
+  font-size: 20px;
+}
+  }
+  @media only screen and (max-width: 320px), only screen and (max-device-width: 320px){
+    .service-list ul li {
+      margin: 12px 40px;
+      text-align: center;
+      width: 23%;
+  }
+  .service-list {
+    padding: 0px 0px;
+  }
+  .bannner-heading h1 {
+    font-family: 'Ultramagnetic';
+    font-size: 25px;
+}
+.service-list ul li p {
+  font-size: 12px;
+  color: #1D46F6;
+  font-family: 'Ultramagnetic';
+}
+  form.form-control {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  form.form-control select {
+    width: 283px !important;
+    margin-left: 1px;
+}
+form.form-control input {
+  margin: 19px 0px;
+}
+form.form-control button {
+  margin-top: 11px;
+}
+.domain-form button {
+  width: 287px !important;
+  padding: 13px;
+  border: none;
+  background: #78C8ED;
+  color: #ffff;
+  border-radius: 3px;
+}
+
+.service-text {
+  display: flex;
+  padding: 0px 60px;
+}
+.service-text h1 {
+  font-size: 29px;
+  color: #04b4ff;
+  font-family: 'Ultramagnetic';
+}
+.domain-second-heading {
+    font-family: 'Roboto',Regular;
+    color: #ffff;
+    margin-bottom: -3px;
+    font-size: 15px;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+}
+h1.code-heading {
+  font-family: 'Ultramagnetic';
+  margin-bottom: 19px;
+  font-size: 20px;
+}
+.code-inner ul li {
+  line-height: 19px;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+  }

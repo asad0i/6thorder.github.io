@@ -1,0 +1,208 @@
+@media only screen and (max-width: 912px), only screen and (max-device-width: 912px){
+    .princing-section {
+        display: flex;
+        padding: 100px 71px;
+        flex-wrap: wrap;
+      }
+      .footer-first-item {
+        margin: -22px 51px;
+        flex-basis: 25%;
+    }
+    .copyright-text p {
+        font-family: 'Ultramagnetic';
+        font-size: 13px;
+    }
+    #extra-margin{
+        
+  margin-top: 64px;
+    }
+  }
+  @media only screen and (max-width: 860px), only screen and (max-device-width: 860px){
+    .princing-section {
+        display: flex;
+        padding: 100px 71px;
+        flex-wrap: wrap;
+      }
+      .footer-first-item {
+        margin: -22px 51px;
+        flex-basis: 25%;
+    }
+    .copyright-text p {
+        font-family: 'Ultramagnetic';
+        font-size: 13px;
+    }
+    #extra-margin{
+        
+  margin-top: 64px;
+    }
+    ul.social-icon {
+      justify-content: center;
+      margin-top: 10px;
+  }
+  }
+  @media only screen and (max-width: 820px), only screen and (max-device-width: 820px){
+    .princing-section {
+        display: flex;
+        padding: 100px 71px;
+        flex-wrap: wrap;
+      }
+ .banner-main-info {
+      display: flex;
+      flex-direction: column;
+    }
+      .footer-first-item {
+        margin: -22px 51px;
+        flex-basis: 25%;
+    }
+    .copyright-text p {
+        font-family: 'Ultramagnetic';
+        font-size: 13px;
+    }
+    #extra-margin{
+        
+  margin-top: 64px;
+    }
+    ul.social-icon {
+      justify-content: center;
+      margin-top: 10px;
+  }
+  }
+  
+  @media only screen and (max-width: 540px), only screen and (max-device-width: 540px){
+    .princing-section {
+      display: flex;
+      padding: 100px 71px;
+      flex-direction: column !important;
+    }
+    .banner-info-inner h1 {
+      font-size: 50px;
+      margin: 46px 19px;
+      font-family: 'Ultramagnetic';
+  }
+    .banner-info {
+      width: 105% !important;
+    }
+    .footer-item ul li {
+      margin: 1px 4px  !important;
+    }
+    .pricing-table {
+      width: 300px !important;
+      position: relative;
+      margin: 24px 5px;
+    }
+    .pricing-table-2 {
+      width: 350px !important;
+      height: 55vh !important;
+    }
+    .footer-first-item {
+      margin: 15px 34px !important;
+    }
+    .copyright-text p {
+      font-size: 12px !important;
+      margin: 10px;
+    }
+    .testimonial {
+      width: 410px !important;
+      
+    }
+    button.card-botton {
+      padding: 12px 85px !important;
+    }
+    .pricing-table-2 {
+      
+      margin-top: 50px !important;
+    }
+    .princing-section {
+      padding: 63px 90px !important;
+    }
+    .pricing-btn {z-index: -1;position: absolute;top: -28px;}
+    
+  .footer-info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 70px;
+    flex-direction: column;
+  }
+  .second-first-item {
+    flex-basis: 25%;
+    padding: 10px 39px;
+  }
+  .third-first-item {
+    flex-basis: 25%;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .copyright-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  ul.social-icon {
+    justify-content: center;
+    margin-top: 10px;
+  }
+    }
+  @media only screen and (max-width: 414px), only screen and (max-device-width: 414px){
+  
+    section.banner {
+        padding: 73px 19px;
+    }
+    .princing-section {
+        display: flex;
+        padding: 64px 3px !important;
+        flex-direction: column !important;
+    }
+    .banner-info-inner h1 {
+      font-size: 25px;
+      margin: 25px 21px;
+      font-family: 'Ultramagnetic';
+  }
+  .bannner_heading {
+    width: 100px;
+    margin: -2px 37px;
+  }
+  }
+  @media only screen and (max-width: 360px), only screen and (max-device-width: 360px){
+  
+    section.banner {
+        padding: 74px 15px;
+    }
+  }
+  @media only screen and (max-width: 280px), only screen and (max-device-width: 280px){
+    .banner-info-inner h1 {
+      font-size: 28px;
+      margin: 34px 17px;
+      font-family: 'Ultramagnetic';
+  }
+  .banner-list ul li a {
+    color: #009CDC;
+    font-family: 'Ultramagnetic';
+    line-height: 32px;
+    font-size: 14px;
+  }
+  .banner-text p {
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 11px;
+    line-height: 25px;
+  }
+  .princing-section {
+    display: flex;
+    padding: 70px 7px !important;
+    flex-direction: column !important;
+  }
+  .pricing-table {
+    width: 253px !important;
+    margin: 15px 0px;
+    position: relative;
+  }
+  button.card-botton {
+    padding: 6px 64px !important;
+  }
+  ul.social-icon {
+    justify-content: center;
+    margin-top: 10px;
+  }
+    }

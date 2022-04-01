@@ -1,0 +1,279 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+} 
+body{
+  font-family: 'Roboto', sans-serif;
+  z-index: 0;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Ultramagnetic';
+  src: url(../Ultramagnetic/Ultramagnetic\ Regular.ttf);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* =============
+NAV CSS STRT
+================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+header {
+  background: #0C1B38;
+  border-bottom: 20px solid #78C8ED;
+}
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 53px 88px;
+  
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+}
+nav ul li{
+  margin: 7px -4px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  font-family: 'Ultramagnetic';
+}
+
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 172vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 2px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}
+.nav-icon-2{
+  font-size: 35px;
+  color: #009CDC;
+}
+
+
+/* =================
+Banner css
+===================== */
+
+.banner {
+  display: flex;
+  padding: 53px 88px;
+}
+
+.banner h1 {
+  font-family: 'Ultramagnetic';
+  font-size: 50px;
+  margin: 31px 22px;
+}
+
+.main-select {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: auto;
+  background: #F3F6FA;
+  padding: 30px 38px;
+  border-radius: 10px;
+  line-height: 40px;
+}
+.main-select h3 {
+  font-family: 'Ultramagnetic';
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+label {
+  font-family: 'Ultramagnetic';
+}
+.main-select select {
+  border: none;
+  padding: 15px 4px;
+  border-radius: 6px;
+  font-family: 'Ultramagnetic';
+  color: #78C8ED;
+}
+
+button#btn {
+  padding: 7px 16px;
+  border: magenta;
+  text-align: left;
+  font-family: 'Ultramagnetic';
+  background: #78C8ED;
+  color: black;
+  font-size: 24px;
+  border-radius: 6px;
+}
+.register-btn button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: navajowhite;
+  padding: 17px 36px;
+  font-family: 'Ultramagnetic';
+  background: #0C1B38;
+  color: white;
+  border-radius: 7px;
+}
+/* ==============
+About css end
+===================*/
+
+
+
+footer {
+  background: url("../img/footer-banner.png");
+  padding: 94px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+.footer-info:before{
+  content: "";
+  position: absolute;
+  width: 84%;
+  height: 1px;
+  background-color: #767474;
+  left: 7%;
+  bottom: -40px;
+}
+.footer-first-item {
+  margin: -22px 105px;
+  flex-basis: 25%;
+}
+
+
+.footer-item ul li a {
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto';
+  line-height: 30px;
+}
+
+.footer-item ul li {
+  margin: 1px 19px;
+}
+.second-first-item {
+  flex-basis: 25%;
+}
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+}
+
+.forth-first-item {
+  flex-basis: 20%;
+}
+.forth-first-item ul {
+  display: flex;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+}

@@ -1,0 +1,992 @@
+@media  (min-width: 1440px){
+  .banner-main {
+    width: 1276px;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+  nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+  }
+  nav .logo{
+    color: #0a2449;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -76px;
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    z-index: 1;
+  }
+  nav ul li{
+    margin: 0 px;
+  }
+  nav ul li a{
+    color: #0a2449;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  .extra-color {
+    color: #04b4ff;
+    margin-right: -14px;
+  }
+ .nav-icon-2 {
+    color: #04b4ff;
+    font-size: 24px;
+    margin-left: -15px;
+  }
+  .nav-icon {
+    color: white;
+    background: #0a2449;
+    border-radius: 100px;
+    font-size: 12px;
+  }
+  /*======================= Service responsive ================= */
+  .service-text {
+    display: flex;
+    padding: 0px 105px;
+  }
+  .service-text h1 {
+    margin-right: 40px;
+    font-size: 40px;
+    color: #04b4ff;
+  }
+  .service-text p {
+    color: #04b4ff;
+    margin: 21px 0px;
+  }
+  
+.service-list ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.service-list ul li{
+  margin: 5px 30px;
+  text-align: center;
+  width: 173px;
+}
+.service-list ul li p {
+  font-size: 23px;
+  font-weight: 800;
+}
+.last-list p {
+  font-size: 16px !important;
+}
+.service-list ul li img {width: 122px;}
+.domain-first-heading {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Roboto',Regular;
+  margin-bottom: 10px;
+}
+.domain-second-heading {
+  font-family: 'Roboto',Regular;
+  color: #ffff;
+  margin-bottom: 35px;
+  font-size: 30px;
+}
+
+.domain-form input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.domain-form select {
+  padding: 13px 3px;
+  border: none;
+  border-radius: 3px;
+  width: 121px;
+  margin: 0px 10px;
+}
+form.form-control {
+  display: flex;
+ 
+}
+.about-img {
+  margin-top: 80px;
+  text-align: center;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+}
+}
+/* =============Domain Responsive============= */
+form.form-control {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+  .banner-section{
+    background-image: url("../img/bandeau_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 745px;
+  }
+  .banner-main {
+    display: flex;
+    padding: 265px 90px;
+  }
+  
+  .banner-heading {
+    flex-basis: 40%;
+    position: absolute;
+    left: 135px;
+    top: 214px;
+    width: 369px;
+    height: 246px;
+  }
+  .banner-heading h1 {
+    text-align: left;
+    font: normal normal normal 72px/70px Ultramagnetic;
+    letter-spacing: -3px;
+    color: #4478C1;
+    opacity: 1;
+    font-family: 'Ultramagnetic', Regular;
+  }
+
+  /*======================= Service responsive ================= */
+.service-text {
+  display: flex;
+  padding: 0px 105px;
+}
+.service-text {
+  display: flex;
+  padding: 0px 105px;
+  flex-direction: column;
+}
+
+.service-text h1 {
+  margin-right: 40px;
+  font-size: 40px;
+  color: #04b4ff;
+}
+
+.service-list ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.service-list ul li{
+  margin: 5px -3px;
+  text-align: center;
+  width: 153px;
+}
+.service-list ul li p {
+  font-size: 15px;
+  font-weight: 800;
+}
+.last-list p {
+  font-size: 16px !important;
+}
+.service-list ul li img {width: 100px;}
+/* =============Domain Responsive============= */
+form.form-control {
+  display: flex;
+}
+.domain-first-heading {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Roboto',Regular;
+  margin-bottom: 10px;
+}
+.domain-second-heading {
+  font-family: 'Roboto',Regular;
+  color: #ffff;
+  margin-bottom: 35px;
+  font-size: 30px;
+}
+
+.domain-form input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.domain-form select {
+  padding: 13px 3px;
+  border: none;
+  border-radius: 3px;
+  width: 121px;
+  margin: 0px 10px;
+}
+form.form-control {
+  display: flex;
+ 
+}
+section.domain {
+  text-align: center;
+  padding: 70px;
+  background-image: url(../img/banner\ domain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+/* ===============
+About css start
+==================== */
+.inner-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 56px;
+  flex-direction: column;
+}
+.about-heading {
+  width: 100%;
+  font-size: 50px;
+}
+
+.about-heading h1 {
+  font-family: 'Ultramagnetic';
+  line-height: 76px;
+}
+
+.info-body-text p {
+  width: 100%;
+  margin-top: 15px;
+  line-height: 33px;
+  font-size: 20px;
+}
+.about-text-info span {
+  color: #333333;
+  font-family: 'Ultramagnetic';
+  margin-top: 28px;
+}
+.about-first-text p {
+  color: #78C8ED;
+  font-family: 'Ultramagnetic';
+  margin-bottom: 15px;
+}
+.about-img {
+  margin-top: 80px;
+  text-align: center;
+}
+/* ======================
+FOOTER RESPONSIVE
+========================== */
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -65px 65px;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+footer {
+  background: url('../img/footer-banner.png');
+  padding: 94px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -22px 17px !important;
+  flex-basis: 25%;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+
+.footer-item ul li a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.footer-item ul li {
+  margin: 0px 19px;
+}
+.second-first-item {
+  flex-basis: 25%;
+}
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+}
+
+.forth-first-item {
+  flex-basis: 20%;
+}
+.forth-first-item ul {
+  display: flex;
+  margin-top: 50px;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.forth-first-item ul li a img {
+  width: 38px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+  font-size: 11px;
+  text-align: center;
+}
+}
+@media only screen and (max-width: 425px), only screen and (max-device-width: 425px) {
+  .banner-section{
+    background-image: url("img/bandeau_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+  }
+  .banner-main {
+    display: flex;
+    padding: 265px 90px;
+  }
+  
+  .banner-heading {
+    flex-basis: 40%;
+    position: absolute;
+    left: 45px;
+    top: 160px;
+    width: 369px;
+    height: 246px;
+  }
+  .banner-heading h1 {
+    text-align: left;
+    font: normal normal normal 72px/70px Ultramagnetic;
+    letter-spacing: -3px;
+    color: #4478C1;
+    opacity: 1;
+    font-family: 'Ultramagnetic', Regular;
+  }
+  nav .logo {
+    color: #0a2449;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -78px;
+  }
+ /*======================= Service responsive ================= */
+  .service-text {
+    display: flex;
+    padding: 0px 45px;
+  }
+  .service-text h1 {
+    font-size: 35px;
+    color: #04b4ff;
+    text-align: left;
+  }
+  .service-text p {
+    color: #04b4ff;
+    margin: 21px 0px;
+  }
+  
+.service-list ul {
+  display: flex;
+  list-style: none;
+}
+.service-list ul li{
+  margin: 14px 22px;
+  text-align: center;
+  width: 39%;
+}
+.service-list ul li p {
+  font-size: 17px;
+  font-weight: 800;
+}
+.last-list p {
+  font-size: 16px !important;
+}
+.service-list ul li img {
+  width: 56px;
+}
+.service-list {
+  margin: 0px 0px;
+}
+/* =============Domain Responsive============= */
+section.domain {
+  text-align: center;
+  padding: 20px;
+  background-image: url(../img/banner\ domain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+}
+/* ===============
+About css start
+==================== */
+.inner-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 24px;
+}
+.about-heading {
+  width: 360px;
+  font-size: 37px;
+}
+
+.about-heading h1 {
+  font-family: 'Ultramagnetic';
+  line-height: 76px;
+}
+
+.info-body-text p {
+  width: 384px;
+  margin-top: 15px;
+  line-height: 33px;
+  font-size: 20px;
+}
+.about-text-info span {
+  color: #333333;
+  font-family: 'Ultramagnetic';
+  margin-top: 28px;
+}
+.about-first-text p {
+  color: #78C8ED;
+  font-family: 'Ultramagnetic';
+  margin-bottom: 15px;
+}
+.about-img {
+  margin-top: 80px;
+  text-align: center;
+}
+.about-img img {
+  width: 375px;
+}
+/* ======================
+FOOTER RESPONSIVE
+========================== */
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -65px 65px;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+footer {
+  background: url('../img/footer-banner.png');
+  padding: 94px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+ul.social-icon {
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-first-item {
+  margin: 4px 18px;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+
+.footer-item ul li a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.footer-item ul li {
+  margin: 7px 19px;
+}
+.second-first-item {margin: 34px 22px;}
+
+.third-first-item {
+  margin: -10px 25px;
+}
+
+.forth-first-item {margin: 0px 12px;}
+.forth-first-item ul {
+  display: flex;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.forth-first-item ul li a img {
+  width: 38px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 5px 25px;
+}
+.forth-first-item ul {
+  display: flex;
+  justify-content: center;
+}
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+  line-height: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  .banner-section{
+    background-image: url("../img/bandeau_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+  }
+  .banner-main{
+    display: flex;
+    padding: 265px 90px;
+  }
+  
+  .banner-heading {
+    flex-basis: 40%;
+    position: absolute;
+    left: 32px;
+    top: 192px;
+    width: 333px;
+    height: 246px;
+  }
+  .banner-heading h1 {
+    text-align: left;
+    font: normal normal normal 62px/66px Ultramagnetic;
+    letter-spacing: -3px;
+    color: #4478C1;
+    opacity: 1;
+    font-family: 'Ultramagnetic', Regular;
+  }
+  nav .logo {
+    color: #0a2449;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -75px;
+  }
+  
+ /*======================= Service responsive ================= */
+ .service-text {
+  display: flex;
+  padding: 0px 45px;
+}
+.service-text h1 {
+  font-size: 35px;
+  color: #04b4ff;
+  text-align: left;
+}
+.service-text p {
+  color: #04b4ff;
+  margin: 21px 0px;
+}
+
+.service-list ul {
+display: flex;
+list-style: none;
+}
+.service-list ul li{margin: 10px 18px;text-align: center;width: 74px;}
+.service-list ul li p {font-size: 12px;font-weight: 800;}
+.last-list p {
+font-size: 16px !important;
+}
+.service-list ul li img {
+width: 56px;
+}
+.service-list {
+margin: 0px 0px;
+}
+/* =============Domain Responsive============= */
+.domain-second-heading {
+  font-family: 'Roboto',Regular;
+  color: #ffff;
+  margin-bottom: 35px;
+  font-size: 19px;
+}
+.service-list {
+padding: 0px 10px;
+}
+form.form-control {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+form.form-control select {
+width: 333px;
+margin-left: 1px;
+}
+form.form-control input {
+margin: 19px 0px;
+}
+form.form-control button {
+margin-top: 11px;
+}
+.domain-form button {
+width: 332px;
+padding: 13px;
+border: none;
+background: #78C8ED;
+color: #ffff;
+border-radius: 3px;
+}
+/* ===============
+About css start
+==================== */
+.inner-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 37px;
+}
+.about-heading {
+  width: 257px;
+  font-size: 28px;
+}
+
+.about-heading h1 {
+  font-family: 'Ultramagnetic';
+  line-height: 76px;
+}
+
+.info-body-text p {
+  width: 248px;
+  margin-top: 15px;
+  line-height: 33px;
+  font-size: 20px;
+}
+.about-text-info span {
+  color: #333333;
+  font-family: 'Ultramagnetic';
+  margin-top: 28px;
+}
+.about-first-text p {
+  color: #78C8ED;
+  font-family: 'Ultramagnetic';
+  margin-bottom: 15px;
+}
+.about-img {
+  margin-top: 80px;
+  text-align: center;
+}
+.about-img img {
+  width: 262px;
+}
+/* ======================
+FOOTER RESPONSIVE
+========================== */
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -65px 65px;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+footer {
+  background: url('../img/footer-banner.png');
+  padding: 94px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -21px 20px;
+  flex-basis: 25%;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+
+.footer-item ul li a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.footer-item ul li {
+  margin: 7px 19px;
+}
+.second-first-item {
+  flex-basis: 25%;
+}
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: 50px;
+}
+
+.forth-first-item {
+  flex-basis: 20%;
+}
+.forth-first-item ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.forth-first-item ul li a img {
+  width: 38px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+  font-size: 16px;
+  text-align: center;
+}
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  .banner-section{
+    background-image: url("../img/bandeau_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+  }
+  .banner-main {
+    display: flex;
+    padding: 265px 90px;
+  }
+  
+  .banner-heading {
+    flex-basis: 40%;
+    position: absolute;
+    left: 21px;
+    top: 140px;
+    width: 292px;
+    height: 246px;
+  }
+  .banner-heading h1 {
+    text-align: left;
+    font: normal normal normal 52px/70px Ultramagnetic;
+    letter-spacing: -3px;
+    color: #4478C1;
+    opacity: 1;
+    font-family: 'Ultramagnetic', Regular;
+  }
+  nav .logo {
+    color: #0a2449;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -84px;
+  }
+  /*======================= Service responsive ================= */
+  .service-text {
+    display: flex;
+    padding: 0px 45px;
+  }
+  .service-text h1 {
+    font-size: 35px;
+    color: #04b4ff;
+    text-align: left;
+  }
+  .service-text p {
+    color: #04b4ff;
+    margin: 21px 0px;
+  }
+  
+.service-list ul {
+  display: flex;
+  list-style: none;
+}
+.service-list ul li{
+  margin: 14px 23px;
+  text-align: center;
+  width: 100px;
+}
+.service-list ul li p {
+  font-size: 9px;
+  font-weight: 800;
+}
+.last-list p {
+  font-size: 16px !important;
+}
+.service-list ul li img {
+  width: 56px;
+}
+.service-list {
+  margin: 0px 0px;
+}
+/* =============Domain Responsive============= */
+form.form-control {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form.form-control select {
+  width: 283px !important;
+  margin-left: 1px;
+}
+form.form-control input {
+margin: 19px 0px;
+}
+form.form-control button {
+margin-top: 11px;
+}
+.domain-form button {
+width: 287px !important;
+padding: 13px;
+border: none;
+background: #78C8ED;
+color: #ffff;
+border-radius: 3px;
+}
+
+/* ======================
+FOOTER RESPONSIVE
+========================== */
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -65px 65px;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+footer {
+  background: url('../img/footer-banner.png');
+  padding: 94px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-first-item {
+  margin: -22px 9px;
+  flex-basis: 25%;
+}
+
+.footer-first-item ul {
+  list-style: none;
+}
+
+
+.footer-item ul li a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.footer-item ul li {
+  margin: 7px 9px;
+}
+.second-first-item {
+  flex-basis: 25%;
+}
+
+.third-first-item {
+  flex-basis: 25%;
+  margin-top: -20px;
+}
+
+.forth-first-item {
+  flex-basis: 20%;
+}
+.forth-first-item ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-logo a {
+  color: #78C8ED;
+  margin: 0px 16px;
+}
+.footer-logo {
+  margin-bottom: 39px;
+}
+.forth-first-item ul li a img {
+  width: 38px;
+}
+.copyright-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-text p {
+  font-family: 'Ultramagnetic';
+  font-size: 14px;
+  text-align: center;
+}
+}
